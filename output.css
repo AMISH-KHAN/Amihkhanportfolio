@@ -441,7 +441,7 @@ video {
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
-  display: none;
+  display: none !important;
 }
 
 *, ::before, ::after {
@@ -752,7 +752,7 @@ video {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .h-\[15rem\] {
@@ -1332,7 +1332,7 @@ video {
   }
 
   .md\:hidden {
-    display: none;
+    display: none !important;
   }
 
   .md\:h-\[25rem\] {

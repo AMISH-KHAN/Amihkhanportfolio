@@ -40,7 +40,8 @@ navButton.addEventListener("click", () => {
 })
 
 window.addEventListener("resize", () => {
-    if (window.innerWidth > 764) {
+  if (window.innerWidth > 764) {
+      
         if (navLinks.classList.contains("hidden")) {
             navLinks.classList.remove("hidden")
         }
