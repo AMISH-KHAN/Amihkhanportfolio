@@ -52,11 +52,16 @@ window.addEventListener("resize", () => {
     
 })
 
+
+
 let modalState="visible"
 // project_div.style.display=
 
 closeBtn.forEach((element) => {
   element.addEventListener("click", () => {
+    closeModal(element)
+  })
+  element.addEventListener("touchstart", () => {
     closeModal(element)
   })
 })
@@ -81,9 +86,16 @@ modalTrigger.forEach(element => {
     // console.log(element)
     addmodal(element)
   })
+  element.addEventListener("touchstart", () => {
+    // console.log(element)
+    addmodal(element)
+  })
 });
 
-
+window.addEventListener("load", () => {
+  navLinks.classList.add("hidden")
+  
+})
 
 
 // document.addEventListener('click', function(event) {

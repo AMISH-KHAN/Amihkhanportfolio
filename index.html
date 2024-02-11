@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <link href="./output.css" rel="stylesheet">
-  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <link rel="apple-touch-icon" sizes="180x180" href="./public/assests/favicon_io/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./public/assests/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./public/assests/favicon_io/favicon-16x16.png">
@@ -49,13 +50,13 @@
   <section id="about" class='w-full '>
     <div class=' py-52 px-0 md:px-52 flex justify-center align-middle '>
       <div class='flex gap-40 justify-center align-middle lg:flex-row md:flex-col flex-col w-[80rem] '>
-        <div class="relative" data-aos="fade-right" data-aos-duration="1000">
+        <div class="relative" data-aos="fade-up" data-aos-duration="1000">
           <div class=' w-56 md:w-80 mx-auto'>
             <div class=' w-56 md:w-80 absolute h-[15rem]  md:h-[25rem] bottom-14 left-10 -z-10 border-red-600 border-8'></div>
           <img src="./public/assests/mumbai1-removebg.png" class=' h-[15rem]  md:h-[25rem] object-cover ' width="100%"  alt="" />
           </div>
         </div>
-        <div class=" w-full md:w-80" data-aos="fade-left" data-aos-duration="1000">
+        <div class=" w-full md:w-80" data-aos="fade-up" data-aos-duration="1000">
           <h1  class='text-6xl font-light font-sans mb-4'>Amish khan</h1>
           <h1 class='text-2xl font-semibold font-sans mb-4 text-orange-700'>Web Developer</h1>
           <p class=' leading-loose text-md text-start w-full'>I am a passionate and ambitious web developer with a strong desire to create meaningful and innovative web applications. While I may be relatively new to the field, my enthusiasm for coding and continuous learning drives me to excel in every project I undertake.</p>
@@ -201,8 +202,8 @@
         <div class="mt-8 flex my-12 mx-auto justify-evenly gap-10 relative align-middle flex-wrap " id="project-div" >
 
           <!-- project 1 -->
-     <div class="w-[24rem] rounded-lg shadow-lg mt-3 relative " >
-        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative'>
+     <div class="w-[22rem] rounded-lg shadow-lg mt-3 relative " >
+        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative' data-aos="zoom-in-up" data-aos-duration="1000">
           <img src="./public/assests/hero.jpg" class='w-full h-[16rem] rounded-md' alt="" />
           <div class="absolute bg-black opacity-65 py-5 w-full bottom-0 "> <h1 class="text-2xl text-white">ShopVista</h1></div>
       </div>
@@ -238,8 +239,8 @@
       <!-- end project 1 -->
       
           <!-- project 2 -->
-     <div class="w-[24rem] rounded-lg shadow-lg mt-3 relative " >
-        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative'>
+     <div class="w-[22rem] rounded-lg shadow-lg mt-3 relative " >
+        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative' data-aos="zoom-in-up" data-aos-duration="1000">
           <img src="./public/assests/mumbai0.jpeg" class='w-full h-[16rem] rounded-md' alt="" />
           <div class="absolute bg-black opacity-65 py-5 w-full bottom-0 "> <h1 class="text-2xl text-white">ChatApp</h1></div>
       </div>
@@ -277,8 +278,8 @@
       <!-- end project 2 -->
 
           <!-- project 3 -->
-     <div class="w-[24rem] rounded-lg shadow-lg mt-3 relative " >
-        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative'>
+     <div class="w-[22rem] rounded-lg shadow-lg mt-3 relative " >
+        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative' data-aos="zoom-in-up" data-aos-duration="1000">
           <img src="./public/assests/mumbai1.jpeg" class='w-full h-[16rem] rounded-md' alt="" />
           <div class="absolute bg-black opacity-65 py-5 w-full bottom-0 "> <h1 class="text-2xl text-white">TodoList</h1></div>
       </div>
@@ -316,8 +317,8 @@
       <!-- end project 3 -->
 
           <!-- project 4 -->
-     <div class="w-[24rem] rounded-lg shadow-lg mt-3 relative " >
-        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative'>
+     <div class="w-[22rem] rounded-lg shadow-lg mt-3 relative " >
+        <div class=' cursor-pointer hover:scale-105 transition-all modal-trigger duration-500 relative' data-aos="zoom-in-up" data-aos-duration="1000">
           <img src="./public/assests/hero.jpg" class='w-full h-[16rem] rounded-md' alt="" />
           <div class="absolute bg-black opacity-65 py-5 w-full bottom-0 "> <h1 class="text-2xl text-white">Wheather App</h1></div>
       </div>
@@ -401,14 +402,14 @@
 </footer>
 
 <!-- end footer -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
     AOS.init();
   </script>
-
-  <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/38afb15894.js" crossorigin="anonymous"></script>
-  <script src="https://smtpjs.com/v3/smtp.js">
-  </script>
+
 </body>
 </html>
