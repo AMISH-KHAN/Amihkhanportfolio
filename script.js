@@ -86,7 +86,7 @@ modalTrigger.forEach(element => {
     // console.log(element)
     addmodal(element)
   })
-  element.addEventListener("touchstart", () => {
+  element.addEventListener("touchend", () => {
     // console.log(element)
     addmodal(element)
   })
