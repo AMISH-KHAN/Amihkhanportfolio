@@ -75,7 +75,7 @@ function closeModal(element) {
 }
 
 function addmodal(element) {
-  const close = element.parentElement.querySelector(".closeClass");
+  const close = element.parentElement.parentElement.querySelector(".closeClass");
   
   close.style.display="flex"
 }
