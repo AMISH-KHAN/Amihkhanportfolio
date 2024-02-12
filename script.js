@@ -74,6 +74,7 @@ function closeModal(element) {
   
 }
 
+//adds modal
 function addmodal(element) {
   const close = element.parentElement.parentElement.querySelector(".closeClass");
   
