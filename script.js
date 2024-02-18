@@ -93,10 +93,10 @@ modalTrigger.forEach(element => {
   })
 });
 
-window.addEventListener("load", () => {
-  navLinks.classList.add("hidden")
+// window.addEventListener("load", () => {
+//   navLinks.classList.add("hidden")
   
-})
+// })
 
 
 // document.addEventListener('click', function(event) {

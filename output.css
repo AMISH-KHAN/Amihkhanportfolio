@@ -1238,6 +1238,10 @@ video {
     position: absolute;
   }
 
+  #nav-button{
+    display: none;
+  }
+  
   .md\:-left-8 {
     left: -2rem;
   }
